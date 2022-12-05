@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef3f9;
+}
+
+.flex-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 40px 10px #dde0efbd;
+    padding: 50px 60px;
+    display: flex;
+    color: #13123a;
+}
+
+.main-left {
+    padding: 0px 30px 0px 0px;
+}
+
+.product-image {
+    width: 130px;
+}
+
+.product-badge {
+    background-color: #13123a;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: 600;
+    width: 300px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.product-old-price {
+    font-size: 14px;
+    color: #413e59;
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.product-price-note {
+    font-size: 12px;
+    color: #8e8d94;
+    margin-bottom: 20px;
+}
+
+.product-cart-button {
+    color: white;
+    background-color: #4787e9;
+    border-radius: 8px;
+    border-bottom: 5px solid #1e56f3;
+    width: 100%;
+    text-align: center;
+    padding: 13px 0px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+}
+
+.product-cart-button:hover {
+    background-color: #2960f8;
+    border-bottom: 12px solid #1743bd;
+}
+
+.product-stocks {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.product-stocks-badge {
+    width: 10px;
+    height: 10px;
+    background-color: #00d787;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.product-stocks-text {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.product-action-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.product-action-button {
+    text-align: center;
+    padding: 11px 0px;
+    width: 160px;
+    border-radius: 5px;
+    border: 1px solid #cbc9d7;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.product-action-button:hover {
+    background-color: #f5f5f5;
+}
+
+.material-icons {
+    margin-right: 5px;
+    font-size: 10px;
+}
